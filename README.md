@@ -19,6 +19,7 @@
     - Strive for modularity to ensure each part of your software has a single responsibility.
     - Avoid large modules that are difficult to manage and understand.
     - Hide implementation details behind interfaces.
+    - Module with alot of methods that are not related or used by each other is a good candidate to be broken up to smaller modules.
 
 6. **Top-level components should be loosely coupled.**
     - Minimize the amount of code in one module that interacts with code in another module.
