@@ -1,4 +1,5 @@
 # Maintainable Software Guidelines
+Extracted from Building Maintainable Software, Java Edition.
 
 1. **Keep functions, methods, and constructors concise.**
     - Try to restrict functions to a maximum of 15 lines.
@@ -24,7 +25,7 @@
 6. **Top-level components should be loosely coupled.**
     - Minimize the amount of code in one module that interacts with code in another module.
     - Try to limit the number of entry points from one component to another.
-    - Make use of patterns like Abstract Factory to manage dependencies effectively.
+    - Make use of patterns like Abstract Factory to manage dependencies effectively between client and implementation code (Recommended by the book).
     - Refactor "Manager" classes or high-traffic service calls to reduce complexity.
 
 7. **Balance architecture components.**
